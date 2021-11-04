@@ -6,9 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.agenda_5_toolbarcombusca.databinding.FragmentAjustesBinding
+import com.example.agenda_5_toolbarcombusca.databinding.FragmetAjustesBinding
 
 class AjustesFragmet: Fragment() {
-    private var _binding: FragmentAjustesBinding? = null
+    private var _binding: FragmetAjustesBinding? = null
 
     private val binding get() = _binding!!
 
@@ -17,7 +18,7 @@ class AjustesFragmet: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentAjustesBinding.inflate(inflater, container, false)
+        _binding = FragmetAjustesBinding.inflate(inflater, container, false)
 
         val config = requireActivity().getSharedPreferences("configuracoes", 0)
 

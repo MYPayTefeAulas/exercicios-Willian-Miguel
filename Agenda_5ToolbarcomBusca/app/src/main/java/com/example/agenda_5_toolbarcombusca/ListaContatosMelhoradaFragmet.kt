@@ -9,10 +9,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.agenda_5_toolbarcombusca.databinding.FragmentListaContatosBinding
+import com.example.agenda_5_toolbarcombusca.databinding.FragmetListaContatosBinding
 
-class ListaContatosMelhoradaFragment : Fragment(), SearchView.OnQueryTextListener {
-    private var _binding: FragmentListaContatosBinding? = null
+class ListaContatosMelhoradaFragmet : Fragment(), SearchView.OnQueryTextListener {
+    private var _binding: FragmetListaContatosBinding? = null
 
     private val binding get() = _binding!!
 
@@ -23,7 +23,7 @@ class ListaContatosMelhoradaFragment : Fragment(), SearchView.OnQueryTextListene
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentListaContatosBinding.inflate(inflater, container, false)
+        _binding = FragmetListaContatosBinding.inflate(inflater, container, false)
 
         adapter = ContatosAdapter(mutableListOf(), ::onBtEditarClick)
 

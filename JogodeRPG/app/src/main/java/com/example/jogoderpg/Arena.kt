@@ -12,7 +12,7 @@ class Arena(guerreiro1: Guerreiros,guerreiro2: Guerreiros) {
     private var defesaG2: Int= 0
 
     fun proximoTurno(guerreiro1: Guerreiros,guerreiro2: Guerreiros){
-        //ataqueG1 = guerreiro1.atacar()
+        ataqueG1 = guerreiro1.atacar()
     }
     fun obterTextoExibicao() {
     }
