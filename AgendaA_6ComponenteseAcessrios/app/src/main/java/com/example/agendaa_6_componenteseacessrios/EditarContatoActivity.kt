@@ -2,6 +2,7 @@ package com.example.agendaa_6_componenteseacessrios
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< HEAD
 import android.widget.Toast
 import com.example.agendaa_6_componenteseacessrios.Utils.IntentsConstants
 import com.example.agendaa_6_componenteseacessrios.databinding.ActivityEditarContatoBinding
@@ -53,5 +54,12 @@ class EditarContatoActivity : AppCompatActivity() {
         }
 
         setContentView(binding.root)
+=======
+
+class EditarContatoActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_editar_contato)
+>>>>>>> main
     }
 }

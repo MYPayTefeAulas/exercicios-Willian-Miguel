@@ -2,6 +2,7 @@ package com.example.agendaa_6_componenteseacessrios
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< HEAD
 import androidx.fragment.app.Fragment
 import com.example.agendaa_6_componenteseacessrios.Fragments.AjustesFragment
 import com.example.agendaa_6_componenteseacessrios.Fragments.ListaContatosFragment
@@ -64,5 +65,12 @@ class TelaInicialActivity : AppCompatActivity() {
     companion object {
         private const val FRAGMENT_HOME = "FRAGMENT_HOME"
         private const val FRAGMENT_AJUSTES = "FRAGMENT_AJUSTES"
+=======
+
+class TelaInicialActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_tela_inicial)
+>>>>>>> main
     }
 }

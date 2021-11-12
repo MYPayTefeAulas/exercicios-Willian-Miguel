@@ -1,6 +1,7 @@
 package com.example.agendaa_6_componenteseacessrios.Utils
 
 object PrefsConstants {
+<<<<<<< HEAD
     /**
      * ARQUIVOS DE SHARED PREFERENCES
      */
@@ -10,4 +11,6 @@ object PrefsConstants {
      * CHAVES SHARED PREFERENCES
      */
     const val KEY_TIPO_ORDENACAO_CONTATOS = "tipoOrdenacaoContatos"
+=======
+>>>>>>> main
 }

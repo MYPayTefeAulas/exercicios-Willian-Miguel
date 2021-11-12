@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -8,5 +9,8 @@
         android:icon="@drawable/ic_busca"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+=======
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+>>>>>>> main
 
 </menu>

@@ -1,5 +1,6 @@
 package com.example.agendaa_6_componenteseacessrios
 
+<<<<<<< HEAD
 data class Contato(var nome: String, var telefone: String, var email: String, var favorito: Boolean = false) {
     val id = getProximoId()
 
@@ -15,3 +16,6 @@ data class Contato(var nome: String, var telefone: String, var email: String, va
         }
     }
 }
+=======
+data class Contatos()
+>>>>>>> main

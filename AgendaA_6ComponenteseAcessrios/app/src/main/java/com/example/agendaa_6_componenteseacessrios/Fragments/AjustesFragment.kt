@@ -1,5 +1,6 @@
 package com.example.agendaa_6_componenteseacessrios.Fragments
 
+<<<<<<< HEAD
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -51,4 +52,7 @@ class AjustesFragment: Fragment() {
 
         return view
     }
+=======
+class AjustesFragment {
+>>>>>>> main
 }

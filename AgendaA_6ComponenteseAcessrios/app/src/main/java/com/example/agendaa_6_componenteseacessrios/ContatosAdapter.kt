@@ -1,5 +1,6 @@
 package com.example.agendaa_6_componenteseacessrios
 
+<<<<<<< HEAD
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -39,4 +40,7 @@ class ContatosAdapter(
         listaContatos.addAll(novaListaContatos)
         notifyDataSetChanged()
     }
+=======
+class ContatosAdapter {
+>>>>>>> main
 }

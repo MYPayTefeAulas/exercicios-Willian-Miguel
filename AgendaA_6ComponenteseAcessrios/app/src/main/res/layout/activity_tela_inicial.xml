@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".TelaInicialActivity">
 
+<<<<<<< HEAD
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
@@ -28,4 +29,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/navigation_menu" />
+=======
+>>>>>>> main
 </androidx.constraintlayout.widget.ConstraintLayout>

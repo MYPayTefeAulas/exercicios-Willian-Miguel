@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".EditarContatoActivity">
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/agenda_txtNome"
         android:layout_width="0dp"
@@ -83,4 +84,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+=======
+>>>>>>> main
 </androidx.constraintlayout.widget.ConstraintLayout>

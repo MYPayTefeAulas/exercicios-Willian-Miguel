@@ -1,5 +1,6 @@
 package com.example.agendaa_6_componenteseacessrios.Fragments
 
+<<<<<<< HEAD
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -116,4 +117,7 @@ class ListaContatosFragment : Fragment(), SearchView.OnQueryTextListener {
         startActivity(intent)
     }
 
+=======
+class ListaContatosFragment {
+>>>>>>> main
 }
