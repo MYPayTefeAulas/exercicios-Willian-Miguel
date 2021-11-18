@@ -111,8 +111,8 @@ class ListaContatosFragment : Fragment(), SearchView.OnQueryTextListener {
 
             uiThread {
                 val listaFiltrada = contatoList.filter { contatoAtual ->
-                    contatoAtual.nome.lowercase().contains(queryLowerCase)
-                    contatoAtual.telefone.lowercase().contains(queryLowerCase)
+                    contatoAtual.nome.lowercase().contains(queryLowerCase)||
+                    contatoAtual.telefone.lowercase().contains(queryLowerCase)||
                     contatoAtual.email.lowercase().contains(queryLowerCase)
                 }
                 adapter.swapData(listaFiltrada)
@@ -124,7 +124,9 @@ class ListaContatosFragment : Fragment(), SearchView.OnQueryTextListener {
     override fun onResume() {
         super.onResume()
         doAsync {
-            val contatoList = viewModel.getAllContatos()
+
+            val contatoList: List<Contato> = viewModel.getAllContatos()
+            viewModel = ListaContatosViewModel(AppDatabase.getDatabase(requireContext()))
 
             uiThread {
                 carregaLista(contatoList)

@@ -72,6 +72,7 @@ class AjustesFragment : Fragment() {
         val LISTA_CONTATOS_PADRAO = listOf(
 
             Contato(nome = "Willian", telefone = "12345", email = "wramos@uea.edu.br"),
+            Contato(nome = "Raiane", telefone = "12345", email = "raiane@uea.edu.br"),
 
         )
 
